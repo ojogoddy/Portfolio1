@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import Navbar from './components/Navbar'
+import Themes from './components/Themes'
 import Portfolio from './pages/portfolio/Portfolio'
 import Contact from './pages/contact/Contact'
 import About from './pages/about/About'
@@ -11,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar/>
+    <Themes/>
       <Routes>
         <Route index element={<Home/>}/>  
         <Route path='about' element={<About/>}/>  

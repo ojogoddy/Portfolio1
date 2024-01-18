@@ -1,6 +1,7 @@
 .nav__menu{
     background-color: var(--first-color);
     position: fixed;
+    z-index: 1000;
     inset-block: 0 ;
     left: -100%;
     background-color: var(--container-color);
@@ -12,6 +13,7 @@
 
 .show-menu{
     left: 0;
+    
 }
 
 .nav__link{
@@ -46,6 +48,7 @@
     border-radius: 5px;
     background-color: var(--container-color);
     padding: 12px 10px;
+    z-index: 1000;
 }
 
 .nav__toggle span {

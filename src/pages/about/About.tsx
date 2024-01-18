@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Info from '../../components/Info'
 import Stats from '../../components/Stats'
 import { FaDownload } from 'react-icons/fa'
@@ -30,7 +30,7 @@ const About = () => {
             </a>
           </div>
 
-          <div className="stats grid">
+          <div  className="stats grid">
             <Stats/>
           </div>
         </div>
@@ -44,6 +44,7 @@ const About = () => {
         </div>
       </section>
 
+      
     </main>
   )
 }
